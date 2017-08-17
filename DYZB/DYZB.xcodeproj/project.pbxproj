@@ -397,7 +397,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = botron.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,7 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DYZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = botron.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +486,7 @@
 				63BC62A41F45869E0073893E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63BC62A51F45869E0073893E /* Build configuration list for PBXNativeTarget "DYZBTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				63BC62A71F45869E0073893E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63BC62A81F45869E0073893E /* Build configuration list for PBXNativeTarget "DYZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				63BC62AA1F45869E0073893E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
