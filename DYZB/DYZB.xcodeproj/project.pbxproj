@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63285EB21F4BC7DE007A0170 /* MianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63285EAF1F4BC7DE007A0170 /* MianViewController.swift */; };
+		63285EB41F4BC838007A0170 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63285EB31F4BC838007A0170 /* HomeViewController.swift */; };
+		63285EB71F4BD72C007A0170 /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63285EB61F4BD72C007A0170 /* UIBarButtonItem_Extension.swift */; };
 		63BC627E1F45869E0073893E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC627D1F45869E0073893E /* AppDelegate.swift */; };
 		63BC62831F45869E0073893E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC62811F45869E0073893E /* Main.storyboard */; };
 		63BC62851F45869E0073893E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BC62841F45869E0073893E /* Assets.xcassets */; };
@@ -17,7 +20,6 @@
 		63BC62BD1F4681780073893E /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC62BB1F4681780073893E /* Live.storyboard */; };
 		63BC62C01F4681840073893E /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC62BE1F4681840073893E /* Follow.storyboard */; };
 		63BC62C31F4681B00073893E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC62C11F4681B00073893E /* Profile.storyboard */; };
-		63BC62C51F4682330073893E /* MianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC62C41F4682330073893E /* MianViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63285EAF1F4BC7DE007A0170 /* MianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MianViewController.swift; sourceTree = "<group>"; };
+		63285EB31F4BC838007A0170 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		63285EB61F4BD72C007A0170 /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
 		63BC627A1F45869E0073893E /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BC627D1F45869E0073893E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63BC62821F45869E0073893E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,7 +59,6 @@
 		63BC62BC1F4681780073893E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		63BC62BF1F4681840073893E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		63BC62C21F4681B00073893E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
-		63BC62C41F4682330073893E /* MianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MianViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63285EA91F4BC6B2007A0170 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				63BC62B81F46815F0073893E /* Home.storyboard */,
+				63285EB31F4BC838007A0170 /* HomeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		63285EAA1F4BC6B2007A0170 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		63285EAB1F4BC6B2007A0170 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		63285EAE1F4BC7DE007A0170 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				63285EAF1F4BC7DE007A0170 /* MianViewController.swift */,
+				63BC62811F45869E0073893E /* Main.storyboard */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		63285EB01F4BC7DE007A0170 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		63285EB11F4BC7DE007A0170 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		63285EB51F4BD6E3007A0170 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				63285EB61F4BD72C007A0170 /* UIBarButtonItem_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		63BC62711F45869E0073893E = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +214,9 @@
 		63BC62B31F458C630073893E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				63BC62B81F46815F0073893E /* Home.storyboard */,
+				63285EAA1F4BC6B2007A0170 /* model */,
+				63285EAB1F4BC6B2007A0170 /* view */,
+				63285EA91F4BC6B2007A0170 /* controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -172,8 +232,9 @@
 		63BC62B51F458C630073893E /* Mian */ = {
 			isa = PBXGroup;
 			children = (
-				63BC62811F45869E0073893E /* Main.storyboard */,
-				63BC62C41F4682330073893E /* MianViewController.swift */,
+				63285EB01F4BC7DE007A0170 /* model */,
+				63285EB11F4BC7DE007A0170 /* view */,
+				63285EAE1F4BC7DE007A0170 /* controller */,
 			);
 			path = Mian;
 			sourceTree = "<group>";
@@ -189,6 +250,7 @@
 		63BC62B71F458C630073893E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				63285EB51F4BD6E3007A0170 /* Extension */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -328,8 +390,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63285EB71F4BD72C007A0170 /* UIBarButtonItem_Extension.swift in Sources */,
 				63BC627E1F45869E0073893E /* AppDelegate.swift in Sources */,
-				63BC62C51F4682330073893E /* MianViewController.swift in Sources */,
+				63285EB21F4BC7DE007A0170 /* MianViewController.swift in Sources */,
+				63285EB41F4BC838007A0170 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +435,7 @@
 				63BC62821F45869E0073893E /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../..;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		63BC62861F45869E0073893E /* LaunchScreen.storyboard */ = {
@@ -388,7 +452,7 @@
 				63BC62B91F46815F0073893E /* Base */,
 			);
 			name = Home.storyboard;
-			path = ../Mian;
+			path = ../../Mian;
 			sourceTree = "<group>";
 		};
 		63BC62BB1F4681780073893E /* Live.storyboard */ = {
