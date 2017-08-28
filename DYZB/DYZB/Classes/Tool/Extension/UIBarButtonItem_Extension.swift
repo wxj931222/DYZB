@@ -25,11 +25,22 @@ extension UIBarButtonItem {
         2, 在构造函数中必须明确调用一个设计的构造函数(self)
     */
     // 1, 必须以convenience init(),开头
-    convenience init(imgName: String, highImgName: String, size: CGSize) {
+    convenience init(imgName: String, highImgName: String = "", size: CGSize = CGSizeZero) {
+        //穿件btn
         let btn = UIButton()
+        
+        //设置图片
         btn.setImage(UIImage(named: imgName), forState: .Normal)
-        btn.setImage(UIImage(named: highImgName), forState: .Highlighted)
-        btn.frame = CGRect(origin: CGPointZero, size: size)
+        if highImgName != "" {
+            btn.setImage(UIImage(named: highImgName), forState: .Highlighted)
+        }
+        
+        //设置尺寸
+        if size == CGSizeZero {
+            btn.sizeToFit()
+        } else {
+            btn.frame = CGRect(origin: CGPointZero, size: size)
+        }
         
         //2, 在构造函数中必须明确调用一个设计的构造函数(self)
         self.init(customView : btn)

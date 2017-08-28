@@ -28,10 +28,11 @@ extension HomeViewController {
     private func setupNartionBar() {
         //设置左侧Logo
         let size = CGSizeMake(40, 40)
-        let logoBtn = UIButton()
-        logoBtn.setImage(UIImage(named: "logo"), forState: .Normal)
-        logoBtn.sizeToFit()
-        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: logoBtn)
+//        let logoBtn = UIButton()
+//        logoBtn.setImage(UIImage(named: "logo"), forState: .Normal)
+//        logoBtn.sizeToFit()
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(imgName: "logo")
         
         //设置右侧Logo 调用工具提供的UI,直接写
 //        let historyBtn = UIButton()
